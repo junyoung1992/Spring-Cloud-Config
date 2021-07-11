@@ -10,4 +10,4 @@ token:
   secret: user_token_github_user_service_default
 
 gateway:
-  ip: 172.30.1.54
+  ip: 172.30.1.9
