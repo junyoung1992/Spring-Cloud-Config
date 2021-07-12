@@ -1,6 +1,7 @@
 token:
   expiration_time: 864000000
-  secret: '{cipher}AQBfyJTK5RC+j3NGSoHmbG3fuXKDDP8kf4Gbo7ixzslX05YMUMlW/31eFUO/HuHlyFBJCv7HoYGYM60Zwq2kSUFxTvGhKn0Z5VFYshmFs99hUhZu/1bQmgBu1mrrvI/kXltww+cChiVDH+kKLuv6aBZvkG9HiBFmVahW4p866IiypUsronesbJVg52VAnwbyeEfr54hrt8Uqrbe9lA0IPfDruACK2lgysTVXllveY9cONIlgYETCO7nidy/x0m7mhfYi4ZyawjO0cCG83XYqEHw/sLnYvC4Pq76X05E/7QtOgMJGCT3pQv+GpAH+YhiGgMIGN8FPrYVTuojvWhKWMIgoWPqsA8B4uTzYjdKOoXMOs9CLTX4I+DFOH/EdENhgeQ/2UnIURZktfibn7raUhlov'
+  secret: user_token_github_user_service_default
+
 
 gateway:
   ip: 172.30.1.9
