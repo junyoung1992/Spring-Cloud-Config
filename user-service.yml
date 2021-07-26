@@ -1,9 +1,9 @@
-spring:
-  datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password: '{cipher}AQA7KJVmO58rX5F874QRPmFE8xzZF9wMAf9Zfys9f0ha5OqmD/lC2r00ZC9XFjqsl0C7TZBy4f3Iky/ZNaJ/B6RvP3CcttM3X+2W8osbKf0ZjZTElXhY8iEMywQ4aHVZyYdmYmW0FOTQOnWQRi/F+mEa0BP4mOC8UOT5Dry1LFxDfGYdklZ6c95lzBjbg6H61tD+nsi5OzlXAGxSqYRJaNXHFkGD+idsqT57JeNMYMKxpQJ+I6qt7LlwJfrhhrJYnQgckL6OEbzqYY/auBKZODsgvirJve8PxKz1XA1QI0HworWqBWNTXai6SyfEFHJpT8ilEwI6uE8k5WsSiEdRcFOq3+1vj5Eqc7Nit3l13YZ4qIIQOKyG0LAAfP5DUj2QNmY='
+# spring:
+#   datasource:
+#     driver-class-name: org.h2.Driver
+#     url: jdbc:h2:mem:testdb
+#     username: sa
+#     password: '{cipher}AQA7KJVmO58rX5F874QRPmFE8xzZF9wMAf9Zfys9f0ha5OqmD/lC2r00ZC9XFjqsl0C7TZBy4f3Iky/ZNaJ/B6RvP3CcttM3X+2W8osbKf0ZjZTElXhY8iEMywQ4aHVZyYdmYmW0FOTQOnWQRi/F+mEa0BP4mOC8UOT5Dry1LFxDfGYdklZ6c95lzBjbg6H61tD+nsi5OzlXAGxSqYRJaNXHFkGD+idsqT57JeNMYMKxpQJ+I6qt7LlwJfrhhrJYnQgckL6OEbzqYY/auBKZODsgvirJve8PxKz1XA1QI0HworWqBWNTXai6SyfEFHJpT8ilEwI6uE8k5WsSiEdRcFOq3+1vj5Eqc7Nit3l13YZ4qIIQOKyG0LAAfP5DUj2QNmY='
 
 token:
   expiration_time: 864000000
@@ -13,6 +13,6 @@ gateway:
   ip: 172.18.0.5
 
 order_service:
-  url: http://ORDER-SERVICE/order-service/%s/orders
+  url: http://localhost/order-service/%s/orders
   exception:
     orders_is_empty: There is no item.
