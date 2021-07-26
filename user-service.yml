@@ -13,6 +13,6 @@ gateway:
   ip: 172.18.0.5
 
 order_service:
-  url: http://localhost/order-service/%s/orders
+  url: http://ORDER-SERVICE/order-service/%s/orders
   exception:
     orders_is_empty: There is no item.
